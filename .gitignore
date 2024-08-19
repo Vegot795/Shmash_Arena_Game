@@ -30,4 +30,6 @@
 *.exe
 *.out
 *.app
-Library/ArtifactDB
+
+Library/
+Temp/
