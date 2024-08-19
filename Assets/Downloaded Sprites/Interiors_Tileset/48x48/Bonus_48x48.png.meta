@@ -1,0 +1,4342 @@
+fileFormatVersion: 2
+guid: b71187b4cc2c7c342aa2bac137730975
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bonus_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a33610e189481e47822c8987ee72a5f
+      internalID: 328756544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068023091377979498d803fdb9cde9b7
+      internalID: 1199535903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4544303484ecf1946a757a37f1762ff1
+      internalID: -273082899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da844e3bcd926ec4eb1c5e9f4307e578
+      internalID: -1428698025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3818632bc357046b55242d39e2bf00
+      internalID: -2046045970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a3d00462e22744b84a9fb2ab58282
+      internalID: -1506984183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cc172c2e6ddbe47aafa707b52951b0
+      internalID: 1103462489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f79e6d31afd734aa592ab688fe6569
+      internalID: -1592677666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0121f36fbee46214c98bdb7b469e8839
+      internalID: 1012255331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0b125bbf8b2d943ad2b3457e863771
+      internalID: -2120605079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5802929bf87cc6748874b9bf9e5346ab
+      internalID: -737397489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a27fd69853eedb49b34f12a970bcd5a
+      internalID: 1993211348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbbfe5d58dca604fa1605d3b6912ef7
+      internalID: -1148577769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03c8f4a0dbef14418f37b9ec230b88e
+      internalID: 912323349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e81ca6724fce2345910a8472f784c78
+      internalID: 1951769305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceef4673874a717408796313c411ea49
+      internalID: 1806598632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55844d8253a55941ad81370477b6885
+      internalID: 1093724252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a8aaba32fcaf41b5903e1c3e683fc
+      internalID: -672847006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5499d6b3c69bc4e88db5ae1f33bbaf
+      internalID: 1337622948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1736ff8bea172684d89b77cdb3c7d085
+      internalID: -787373047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080c396490cf5094695c0bb56cf27243
+      internalID: 1187965121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb7d53539a0ad445b7e50d7fd24ecd9
+      internalID: 1988627171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc369384295e1e4c9879328d23d279d
+      internalID: 950096542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6fb8dbf80e5d4419dc1f32f654f662
+      internalID: 1113441914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce84124896541946a1cf6bab4a6a18b
+      internalID: -361789931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc5d836738bfc4ab2c449b1c46b819
+      internalID: 214172860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551b6d6523d933245a7036cba43f554c
+      internalID: -2030587280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a0c87966cbea34cbf15a47ed075161
+      internalID: -1087266463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5defeb32f47d744a7059854e933b0a
+      internalID: -1910582485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82089c8b31fd3a649a85abb9325c4714
+      internalID: -829363747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 936
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86990c84bc14a84890340f6ae3e9bdd
+      internalID: -304437881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54066e6a4c37d640a3e131d1aae0eff
+      internalID: 1345175575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01117014ff612a643a7e90a74eab095a
+      internalID: -982003292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77ab867c392c7d45a7fc19583397861
+      internalID: -915518129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259794ff2ec7de943be18da600c2f804
+      internalID: -1940534177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ade82e1056fe418cefa863796da58
+      internalID: 782722422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_36
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baaae4da1313c34cbe7dee31ea00390
+      internalID: 415832655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714bd70a75266de4c86a8555fd6716af
+      internalID: 309610143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1981b69561c1642b2de900c8d1452c
+      internalID: -1771831500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfad24108a13704181a77b4995e4b04
+      internalID: -2028052267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_40
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f801c40b0b2255f4d85dabcbcdcd3aed
+      internalID: 114208462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d8f70b8e9267f44a1b24a278b86101
+      internalID: 1019636575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_42
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5089dc8a366574cb7f6aa550113aae
+      internalID: -252430714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_43
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846f731e4d0936047855059ca37de3ac
+      internalID: 1439973877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_44
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 840
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58760ac7223f8c42a42e259c386bd49
+      internalID: 657089983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4db4dc9930092d4c963aea17f126a99
+      internalID: -1472353810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b893ba0e2f154288dee7b4e5e95f4
+      internalID: -1520104963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7ee46e37a2d064f97c628ad8186ea0
+      internalID: -745498371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a575c2959f7fd945add8aec508aa34a
+      internalID: -979362852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8375aad3d01b0754e9ced2e1f0129643
+      internalID: 549322252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_50
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d296c734a2d3fc241b926bd04e203c63
+      internalID: -861640998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75db654e6c9f22459d322ddbcac73ee
+      internalID: 645524003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_52
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b31dbbfc8aa194a9199298424a6864
+      internalID: 1117411763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_53
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3418ab2485ebad47a89c2aae9e86eb4
+      internalID: -747864026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df88126351f2cbb4391d2ef7908ff0de
+      internalID: 118671242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_55
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3935c0bddf057aa4883e0ebe77824282
+      internalID: -1220070923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_56
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 792
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc550f3cdaafd82408df6cf9e70939e2
+      internalID: -1015201204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938ebdc8fcbf48a47bc2f39576a46e45
+      internalID: 11299062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_58
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96f46bead1de04c98a7e3db1f961fd
+      internalID: -530034012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_59
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8949f6b9361eba542a2302927005284f
+      internalID: 2062486942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5a62bfd0f9fb499a8746a9a8e2834
+      internalID: -23987626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a665f2914ecc5dd468e6351a3dc91984
+      internalID: -800619909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_62
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1c8d6b5decd6743b7fa7931b92fb0b
+      internalID: -1472788887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_63
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b892701fe0e06a429ac3be644179187
+      internalID: 1131620673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_64
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 744
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa1679f357c4b4aaafaec702ba9bcb
+      internalID: 229911879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae8bfe724fa6984e9ff0635abbd69af
+      internalID: 1924724538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9f34ca8e3813c4ca09f201fdf0531c
+      internalID: -1275836526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935744153eae45246ae55bc70288be55
+      internalID: 1723515240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_68
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d8a41c23e6b6540b186bab09bcf463
+      internalID: -159680979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee77abc8d5158e145b93abee0b413173
+      internalID: 2123375362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_70
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a5f0ac698a58546b70a6ad316b9221
+      internalID: 229604890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b673e6d76d40c439c6dd37f9d57040
+      internalID: -469595519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_72
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed48d34ac802454b94652a33804c67c
+      internalID: 52799921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 696
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba0e9e3af329b499987353f9b2e1f5
+      internalID: 963082189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e7ec6de9c3e124496deb79223b7655
+      internalID: -1278430634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123b2a414933d54bbf26554d806a426
+      internalID: -856377464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_76
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a321ac39d84f4ebe24e9f1e102a58
+      internalID: -1795131003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_77
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6581bfdfaa08e0c44b4939617960cb00
+      internalID: -1227646201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbf3d1960c0ea54a81d163e2383f677
+      internalID: 1542781518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_79
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 648
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd57ab7b7c97d64c83365af402c7968
+      internalID: -661173661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 600
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4aa1e01e443c4688dbf37d1687995
+      internalID: -351652494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 600
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44096cd39f5d4f04490334d3b99cfca7
+      internalID: -683981566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_82
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 600
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c031e522ba32e9b45a64ecffd161fe14
+      internalID: -1601767413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_83
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 600
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c5936fdf41d604c96b6ebb3ed3c4ab
+      internalID: -293631114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_84
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 600
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a107e6fc9f2f49741ac8f769bedc411f
+      internalID: 465115869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_85
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 600
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03643553006a2f942bf2dd46373a3698
+      internalID: 285912169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_86
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 552
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a207fcd93f4c504e91da4563403aee1
+      internalID: -727234707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 552
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a5680b71702b548846b46b2f64a071
+      internalID: 401178406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_88
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 552
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe3efe692cf20c4ab9d85e74497a569
+      internalID: -2034514207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_89
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 552
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab242bfab2e8c943936bb55a37077f1
+      internalID: -760414597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_90
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 552
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc98a4c2c6bad534682e00a8737b1650
+      internalID: -1608861190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_91
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 552
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5163bd60f1fad041b1e6d90f9244eaa
+      internalID: 2140263083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f21ae9c5944da4b9e5e520a798dbe9
+      internalID: 60931115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27cfb56d41371d46aac4b59e1460e0b
+      internalID: -890231457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c755fa6f252da42449086024496136c5
+      internalID: -640599426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_95
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a7726e40253148b180977ceed7fc2
+      internalID: 855266589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9aa2db1693cd74084c4ca8ed699704
+      internalID: 754620339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_97
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0240fad0efe84364595d9615e7592f7c
+      internalID: 2009023689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_98
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 504
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc04585fdddcb7d4285ee348f98a8983
+      internalID: 590042460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 456
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4028de3c1b8250849a9371d227e20ca6
+      internalID: 993264826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 456
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6981819a16be20049b2ccef989169f19
+      internalID: 1557762266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_101
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 456
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5b49b07aa40440901b96ac1dc8a6a
+      internalID: -408661597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 456
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25cbe84aa2880740909803d02bd2d2d
+      internalID: 931518358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836ab424c8c2b14e9665c2b65f8956c
+      internalID: 259878269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8f5be81c998e747a23174507cb69e3
+      internalID: 1760953895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab66052eaebe53146a63c718cbb9b650
+      internalID: -1959625926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_106
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb2192a2c4250b4e9812a871c974869
+      internalID: 1910659399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_107
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69189e659bdbaf4699b72acf36de98b
+      internalID: 178407949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_108
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a3439656fa6f14993945be52bdb1ad
+      internalID: 2103834944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_109
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d13ad4c79d7e418c14e4a049cd0c9
+      internalID: 597309348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_110
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e214e6b958f87448d1b40816fcc1ac
+      internalID: -175705135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_111
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2548b882e0b4347bb71fa19740738a
+      internalID: 1646463985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_112
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becd42cbce22b0346af16372020a22af
+      internalID: -512810451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_113
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 408
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e13ca26d39de0d418d3dd4afb0ef19d
+      internalID: -1470009886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8e320a5d6e93349acff58ae798f952
+      internalID: -1342746753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_115
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a382038f0e8a4aa8ef86de12d4ca7
+      internalID: -295322611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9955b3eda358f9545a4865f09ca43339
+      internalID: 2055760535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_117
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5298bb9a1ba16448979a2463d001cf
+      internalID: 607664138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52896d6651d597d45b0725c745da3786
+      internalID: -835306039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_119
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a465913eb9e136c4e895ee998885ab64
+      internalID: 1706263559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_120
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37589fe71f837940b7a3bcee99f4427
+      internalID: -1940138249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aacc36241186d34d86bf1d78e3fc5be
+      internalID: -1685226336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_122
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fe316b501fb564d986735771cea630
+      internalID: -2006068583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_123
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cac2287d22bc304f990c26c4bc396ea
+      internalID: -2034188045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_124
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 360
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550fc72b801f207428f5f053862f8112
+      internalID: -412546637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e160a8cac805041891f7b505946e79
+      internalID: -974217272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_126
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b727bc093905973479e04ad6b1574e25
+      internalID: 37414452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_127
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b902f54ee9bd8114e8673ded02fad915
+      internalID: -2144246457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_128
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f55479f4b523545b2c0bb4e260087d
+      internalID: 746171187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_129
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b140c539692b36d49bd735e1a42bb51c
+      internalID: 1196498006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_130
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bec8b1f1cbc5d740986b504cf353403
+      internalID: 2104041645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_131
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150a3460af2f36c4ebfc4201fbce8e37
+      internalID: 1248386174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_132
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127270892d846774987691a3408c00c4
+      internalID: 987070902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_133
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4fc4352bfff0b41aee1d03f38673f6
+      internalID: -1690485151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_134
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6600c3826aaec154c9199b2d4fec71c5
+      internalID: 297918480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_135
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 312
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d42306b13f6264bb6c79c5eb850cda
+      internalID: 125342593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b8c62563b3a154aa5a2ae7baaeba12
+      internalID: -664668853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d78a77c9a4e5c4e91559d1e0250c4e
+      internalID: 1559927064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713508595427a4e41a311bce4f4cbe61
+      internalID: 125974847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_139
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e496cb4d5a85643a8120260eae2a88
+      internalID: -1383649730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e1defe2d0847e44ac0171a582ca5a0
+      internalID: -995308622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_141
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598fbd3e5924f064aba02e2d59338bc6
+      internalID: 1098124067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_142
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f450a4ac8ec684a408a77142933c23ac
+      internalID: 320556314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_143
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f04e704908d88489585b8b2b26f390
+      internalID: 793758997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_144
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a27c75e4c72c640b97a50f515de19e
+      internalID: 709538052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_145
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83b479531a8e1a48bb83572033464f4
+      internalID: 607698546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_146
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 264
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426ef397bfd77ff4baa890ea00b6a88f
+      internalID: 140319400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc17c98569ee1aa4b9884e5bd1040199
+      internalID: 714678613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 216
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af52afa033c9ac4db41c6ca9520368b
+      internalID: -1629928218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 216
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270c79abdac64ca4dbd759ea10f0d132
+      internalID: -1883371441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f65b89920d1d45bc27b68944c3c72
+      internalID: 2057058649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_151
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88555560559295f4589857e2dbb391bf
+      internalID: -1085932463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_152
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb512b1f4395a6419a832220d7bfc0b
+      internalID: 775558235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_153
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e555c3634ac439540b53b4c2aec6a75f
+      internalID: 1514800680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_154
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14815b4963f4157439484235698ebfe5
+      internalID: -716633558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_155
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84feebf588ec17409fd8a2ffd0fc6b0
+      internalID: -877751453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_156
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc08487f9d477d44c80b2e74d77b363c
+      internalID: -731882217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_157
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74907d890176dae49aab1ca40c6694b7
+      internalID: -1328409938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_158
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c230c34dbb496674383467bd6552667e
+      internalID: -656044882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_159
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9018269880ece0b4aa7f11b029d8dd1e
+      internalID: 1026816581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_160
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9538fbca39713748afe697e4ac04870
+      internalID: 1227505745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_161
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8a89c123222e846aac30db0b7fe94a
+      internalID: -747111804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34914da47155847a0065ea2f5f14bd
+      internalID: -1299260327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e108a8d54efe64c84029311a6c0ca8
+      internalID: 1086281344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_164
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f9ee09d17b6414ab876596506f0ba9
+      internalID: 2142664751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbea72706d75d044b5a3b6361938c67
+      internalID: -151520804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_166
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988adebd4113a794198bb7a3929f0aa8
+      internalID: 1151138021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_167
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0cc2cdb3b2d0b42bd79b10133cd1b2
+      internalID: 417033487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_168
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baf2ea7468dffc4a80fb1c75a32a2b8
+      internalID: -1873308909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc12b9fefdab7474cb3fde35662f78a2
+      internalID: -1109106887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_170
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f973b392e37356342bfdeb4833ae4a88
+      internalID: -674415604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_171
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb8a5d63c5681e43881d72fb3946102
+      internalID: 1291587643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_172
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a185c89e862f2bb4a862d6bfd81ba82f
+      internalID: -1078318443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_173
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539b29e2a1c4fb44a8103fdd9f03a593
+      internalID: 896272792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_174
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1106660c4424fec44977f0c0bd84438b
+      internalID: -849921466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_175
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77641a9f1ec4e0842b7abc49692a72a5
+      internalID: 985394438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_176
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e719efc1d62e409a28d450f253f47
+      internalID: 679983002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_177
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17ede45ee19837488ef4be0b9b61527
+      internalID: 1282335452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_178
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016ae32246ba1bd4e97870ea2b8c34f0
+      internalID: 669258688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_179
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6c9a7f4860d864c8e65a38a0722334
+      internalID: 929740387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_180
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b446439dd75cf447a266873ca108852
+      internalID: 714935042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_181
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bc8b2580a53434b88d99e1bec89776
+      internalID: -1857680857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_182
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 72
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d011f4938421e04f9b6ea332a6704a8
+      internalID: 507323539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_183
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752ecdaccbbc8294898fbd952180f5fd
+      internalID: 1959719749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_184
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5911bac08190446b6cf8370b8a596c
+      internalID: 1215820403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_185
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19d5fcf9436b674e902379065412d1a
+      internalID: 2076214171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_186
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359d0d287849bb34fa2d14468bfcc8fd
+      internalID: 311133547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_187
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68d18e351f0d834f99ed5c56426f465
+      internalID: -1520757730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_188
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937bc8d373b87b1429efe9eca937bd62
+      internalID: -767938110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_189
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb372c18e88f7641b05a5f86511e2fa
+      internalID: -1714288533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bonus_48x48_190
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 24
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f36d11106588a4e955cf0d530c18f8
+      internalID: 905891922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bonus_48x48_0: 328756544
+      Bonus_48x48_1: 1199535903
+      Bonus_48x48_10: -737397489
+      Bonus_48x48_100: 1557762266
+      Bonus_48x48_101: -408661597
+      Bonus_48x48_102: 931518358
+      Bonus_48x48_103: 259878269
+      Bonus_48x48_104: 1760953895
+      Bonus_48x48_105: -1959625926
+      Bonus_48x48_106: 1910659399
+      Bonus_48x48_107: 178407949
+      Bonus_48x48_108: 2103834944
+      Bonus_48x48_109: 597309348
+      Bonus_48x48_11: 1993211348
+      Bonus_48x48_110: -175705135
+      Bonus_48x48_111: 1646463985
+      Bonus_48x48_112: -512810451
+      Bonus_48x48_113: -1470009886
+      Bonus_48x48_114: -1342746753
+      Bonus_48x48_115: -295322611
+      Bonus_48x48_116: 2055760535
+      Bonus_48x48_117: 607664138
+      Bonus_48x48_118: -835306039
+      Bonus_48x48_119: 1706263559
+      Bonus_48x48_12: -1148577769
+      Bonus_48x48_120: -1940138249
+      Bonus_48x48_121: -1685226336
+      Bonus_48x48_122: -2006068583
+      Bonus_48x48_123: -2034188045
+      Bonus_48x48_124: -412546637
+      Bonus_48x48_125: -974217272
+      Bonus_48x48_126: 37414452
+      Bonus_48x48_127: -2144246457
+      Bonus_48x48_128: 746171187
+      Bonus_48x48_129: 1196498006
+      Bonus_48x48_13: 912323349
+      Bonus_48x48_130: 2104041645
+      Bonus_48x48_131: 1248386174
+      Bonus_48x48_132: 987070902
+      Bonus_48x48_133: -1690485151
+      Bonus_48x48_134: 297918480
+      Bonus_48x48_135: 125342593
+      Bonus_48x48_136: -664668853
+      Bonus_48x48_137: 1559927064
+      Bonus_48x48_138: 125974847
+      Bonus_48x48_139: -1383649730
+      Bonus_48x48_14: 1951769305
+      Bonus_48x48_140: -995308622
+      Bonus_48x48_141: 1098124067
+      Bonus_48x48_142: 320556314
+      Bonus_48x48_143: 793758997
+      Bonus_48x48_144: 709538052
+      Bonus_48x48_145: 607698546
+      Bonus_48x48_146: 140319400
+      Bonus_48x48_147: 714678613
+      Bonus_48x48_148: -1629928218
+      Bonus_48x48_149: -1883371441
+      Bonus_48x48_15: 1806598632
+      Bonus_48x48_150: 2057058649
+      Bonus_48x48_151: -1085932463
+      Bonus_48x48_152: 775558235
+      Bonus_48x48_153: 1514800680
+      Bonus_48x48_154: -716633558
+      Bonus_48x48_155: -877751453
+      Bonus_48x48_156: -731882217
+      Bonus_48x48_157: -1328409938
+      Bonus_48x48_158: -656044882
+      Bonus_48x48_159: 1026816581
+      Bonus_48x48_16: 1093724252
+      Bonus_48x48_160: 1227505745
+      Bonus_48x48_161: -747111804
+      Bonus_48x48_162: -1299260327
+      Bonus_48x48_163: 1086281344
+      Bonus_48x48_164: 2142664751
+      Bonus_48x48_165: -151520804
+      Bonus_48x48_166: 1151138021
+      Bonus_48x48_167: 417033487
+      Bonus_48x48_168: -1873308909
+      Bonus_48x48_169: -1109106887
+      Bonus_48x48_17: -672847006
+      Bonus_48x48_170: -674415604
+      Bonus_48x48_171: 1291587643
+      Bonus_48x48_172: -1078318443
+      Bonus_48x48_173: 896272792
+      Bonus_48x48_174: -849921466
+      Bonus_48x48_175: 985394438
+      Bonus_48x48_176: 679983002
+      Bonus_48x48_177: 1282335452
+      Bonus_48x48_178: 669258688
+      Bonus_48x48_179: 929740387
+      Bonus_48x48_18: 1337622948
+      Bonus_48x48_180: 714935042
+      Bonus_48x48_181: -1857680857
+      Bonus_48x48_182: 507323539
+      Bonus_48x48_183: 1959719749
+      Bonus_48x48_184: 1215820403
+      Bonus_48x48_185: 2076214171
+      Bonus_48x48_186: 311133547
+      Bonus_48x48_187: -1520757730
+      Bonus_48x48_188: -767938110
+      Bonus_48x48_189: -1714288533
+      Bonus_48x48_19: -787373047
+      Bonus_48x48_190: 905891922
+      Bonus_48x48_2: -273082899
+      Bonus_48x48_20: 1187965121
+      Bonus_48x48_21: 1988627171
+      Bonus_48x48_22: 950096542
+      Bonus_48x48_23: 1113441914
+      Bonus_48x48_24: -361789931
+      Bonus_48x48_25: 214172860
+      Bonus_48x48_26: -2030587280
+      Bonus_48x48_27: -1087266463
+      Bonus_48x48_28: -1910582485
+      Bonus_48x48_29: -829363747
+      Bonus_48x48_3: -1428698025
+      Bonus_48x48_30: -304437881
+      Bonus_48x48_31: 1345175575
+      Bonus_48x48_32: -982003292
+      Bonus_48x48_33: -915518129
+      Bonus_48x48_34: -1940534177
+      Bonus_48x48_35: 782722422
+      Bonus_48x48_36: 415832655
+      Bonus_48x48_37: 309610143
+      Bonus_48x48_38: -1771831500
+      Bonus_48x48_39: -2028052267
+      Bonus_48x48_4: -2046045970
+      Bonus_48x48_40: 114208462
+      Bonus_48x48_41: 1019636575
+      Bonus_48x48_42: -252430714
+      Bonus_48x48_43: 1439973877
+      Bonus_48x48_44: 657089983
+      Bonus_48x48_45: -1472353810
+      Bonus_48x48_46: -1520104963
+      Bonus_48x48_47: -745498371
+      Bonus_48x48_48: -979362852
+      Bonus_48x48_49: 549322252
+      Bonus_48x48_5: -1506984183
+      Bonus_48x48_50: -861640998
+      Bonus_48x48_51: 645524003
+      Bonus_48x48_52: 1117411763
+      Bonus_48x48_53: -747864026
+      Bonus_48x48_54: 118671242
+      Bonus_48x48_55: -1220070923
+      Bonus_48x48_56: -1015201204
+      Bonus_48x48_57: 11299062
+      Bonus_48x48_58: -530034012
+      Bonus_48x48_59: 2062486942
+      Bonus_48x48_6: 1103462489
+      Bonus_48x48_60: -23987626
+      Bonus_48x48_61: -800619909
+      Bonus_48x48_62: -1472788887
+      Bonus_48x48_63: 1131620673
+      Bonus_48x48_64: 229911879
+      Bonus_48x48_65: 1924724538
+      Bonus_48x48_66: -1275836526
+      Bonus_48x48_67: 1723515240
+      Bonus_48x48_68: -159680979
+      Bonus_48x48_69: 2123375362
+      Bonus_48x48_7: -1592677666
+      Bonus_48x48_70: 229604890
+      Bonus_48x48_71: -469595519
+      Bonus_48x48_72: 52799921
+      Bonus_48x48_73: 963082189
+      Bonus_48x48_74: -1278430634
+      Bonus_48x48_75: -856377464
+      Bonus_48x48_76: -1795131003
+      Bonus_48x48_77: -1227646201
+      Bonus_48x48_78: 1542781518
+      Bonus_48x48_79: -661173661
+      Bonus_48x48_8: 1012255331
+      Bonus_48x48_80: -351652494
+      Bonus_48x48_81: -683981566
+      Bonus_48x48_82: -1601767413
+      Bonus_48x48_83: -293631114
+      Bonus_48x48_84: 465115869
+      Bonus_48x48_85: 285912169
+      Bonus_48x48_86: -727234707
+      Bonus_48x48_87: 401178406
+      Bonus_48x48_88: -2034514207
+      Bonus_48x48_89: -760414597
+      Bonus_48x48_9: -2120605079
+      Bonus_48x48_90: -1608861190
+      Bonus_48x48_91: 2140263083
+      Bonus_48x48_92: 60931115
+      Bonus_48x48_93: -890231457
+      Bonus_48x48_94: -640599426
+      Bonus_48x48_95: 855266589
+      Bonus_48x48_96: 754620339
+      Bonus_48x48_97: 2009023689
+      Bonus_48x48_98: 590042460
+      Bonus_48x48_99: 993264826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
