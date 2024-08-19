@@ -9,3 +9,11 @@ magia/perki/spele
 wybór postaci przed wejściem do gry
 scoreboard dla gracza(top 10 wyników)
 różne typy wrogów
+początkowo jeden model postaci, gracz moze zmieniać jego kolor i dodatki
+monety 10% osiągniętego limitu, spele ulepszane z menu wyboru postaci
+emblematy do kupienia za monety albo do odblokowania za wyniki/achievementy
+wibracje ekranu przy wybuchach
+licznik wyniku
+wskaźnik hp/ammo/spelle
+pasek broni (1 melee koniecznie, moze być więcej)
+
