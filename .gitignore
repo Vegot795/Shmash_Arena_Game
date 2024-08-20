@@ -38,3 +38,4 @@ obj/
 *.csproj
 *.pdb
 .vs/
+.log/
