@@ -223,6 +223,10 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   swordAttack: {fileID: 5056672225924428126}
+  isMovingHorisontal: 0
+  isMovingDown: 0
+  isMovingUp: 0
+  isMovingVertical: 0
 --- !u!95 &4160172749196449614
 Animator:
   serializedVersion: 5

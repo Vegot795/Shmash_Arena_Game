@@ -11,6 +11,11 @@ public class PlayerController : MonoBehaviour
     public ContactFilter2D movementFilter;
     public SwordAttack swordAttack;
 
+    public bool isMovingHorisontal = false;
+    public bool isMovingDown = false;
+    public bool isMovingUp = false;
+    public bool isMovingVertical = false;
+
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
@@ -26,7 +31,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-
+    /*
     private void FixedUpdate() {
         if(canMove) {
             // If movement input is not 0, try to move
@@ -53,6 +58,68 @@ public class PlayerController : MonoBehaviour
             } else if (movementInput.x > 0) {
                 spriteRenderer.flipX = false;
             }
+        }
+    }
+    */
+
+    private void FixedUpdate()
+    {
+        DetectMoveDirection();
+        if (canMove)
+        {
+            bool success = TryMove(movementInput);
+            if(isMovingHorisontal)
+            {
+                animator.SetBool("isMovingHorisontal", success);
+                if (movementInput.x < 0)
+                {
+                    spriteRenderer.flipX = true;
+                }
+                else if (movementInput.x > 0)
+                {
+                    spriteRenderer.flipX = false;
+                }
+            } else
+            {
+                animator.SetBool("isMovingHorisontal", false);
+            }
+            if(isMovingVertical)
+            {
+                if(movementInput.y < 0)
+                {
+                    animator.SetBool("isMovingDown", success);
+                    animator.SetBool("isMovingUp", false);
+                }
+                else if(movementInput.y > 0)
+                {
+                    animator.SetBool("isMovingUp", success);
+                    animator.SetBool("isMovingDown", false);
+                }
+            }
+            else
+            {
+                animator.SetBool("isMovingUp", false);
+                animator.SetBool("isMovingDown", false);
+            }
+        }
+    }
+    private void DetectMoveDirection()
+    {
+        if(movementInput.x != 0)
+        {
+            isMovingHorisontal = true;
+        } else
+        {
+            isMovingHorisontal = false;
+
+        }
+        if(movementInput.y != 0)
+        {
+            isMovingVertical = true;
+        }
+        else
+        {
+            isMovingVertical = false;
         }
     }
 
@@ -88,14 +155,25 @@ public class PlayerController : MonoBehaviour
 
     public void SwordAttack() {
         LockMovement();
-
-        if (spriteRenderer.flipX == true)
-        {
-            swordAttack.AttackLeft();
+        if(isMovingHorisontal) { 
+            if (spriteRenderer.flipX == true)
+            {
+                swordAttack.AttackLeft();
+            }
+            else
+            {
+                swordAttack.AttackRight();
+            }
         }
-        else
+        if(isMovingVertical)
         {
-            swordAttack.AttackRight();
+            if(isMovingUp)
+            {
+                swordAttack.AttackUp();
+            } else if(isMovingDown)
+            {
+                swordAttack.AttackDown();
+            }
         }
     }
 
