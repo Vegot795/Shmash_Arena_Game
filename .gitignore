@@ -33,3 +33,5 @@
 
 Library/
 Temp/
+Log/
+*.log
