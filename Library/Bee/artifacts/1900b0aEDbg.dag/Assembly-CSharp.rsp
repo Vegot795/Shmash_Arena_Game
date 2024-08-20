@@ -378,6 +378,16 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unit/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unit/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+<<<<<<< HEAD
+"Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs"
+"Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs"
+"Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs"
+"Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs"
+"Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
+"Assets/Scripts/EnemyBehavior/Enemy.cs"
+"Assets/Scripts/PlayerBehavior/PlayerController.cs"
+"Assets/Scripts/WeaponBehavior/SwordAttack.cs"
+=======
 "Assets/Downloaded Sprites/Pixel Art Top Down - Basic/Script/CameraFollow.cs"
 "Assets/Downloaded Sprites/Pixel Art Top Down - Basic/Script/LayerTrigger.cs"
 "Assets/Downloaded Sprites/Pixel Art Top Down - Basic/Script/PropsAltar.cs"
@@ -424,6 +434,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
 -langversion:9.0
 
 /deterministic

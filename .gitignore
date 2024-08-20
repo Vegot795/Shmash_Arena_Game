@@ -33,3 +33,7 @@
 
 Library/
 Temp/
+obj/
+*.csproj
+*.pdb
+.vs/

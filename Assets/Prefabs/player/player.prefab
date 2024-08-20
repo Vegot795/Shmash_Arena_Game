@@ -15,7 +15,10 @@ GameObject:
   - component: {fileID: 5186352052406647784}
   - component: {fileID: 2876449512899241011}
   - component: {fileID: 4160172749196449614}
+<<<<<<< HEAD
+=======
   - component: {fileID: 749091473288041276}
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -77,8 +80,13 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+=======
   m_SortingLayerID: -44025399
   m_SortingLayer: 3
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
   m_SortingOrder: 0
   m_Sprite: {fileID: 1802456500, guid: 6a81ee5d510b5c3438152ce77c605bc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -244,6 +252,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< HEAD
+=======
 --- !u!114 &749091473288041276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,6 +270,7 @@ MonoBehaviour:
   interactableObjects:
     serializedVersion: 2
     m_Bits: 0
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
 --- !u!1 &5461539023211406601
 GameObject:
   m_ObjectHideFlags: 0

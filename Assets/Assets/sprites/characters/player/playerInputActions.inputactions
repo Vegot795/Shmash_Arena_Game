@@ -31,6 +31,8 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+<<<<<<< HEAD
+=======
                 },
                 {
                     "name": "UseObject",
@@ -40,6 +42,7 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
                 }
             ],
             "bindings": [
@@ -262,6 +265,8 @@
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< HEAD
+=======
                 },
                 {
                     "name": "",
@@ -273,6 +278,7 @@
                     "action": "UseObject",
                     "isComposite": false,
                     "isPartOfComposite": false
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
                 }
             ]
         },
