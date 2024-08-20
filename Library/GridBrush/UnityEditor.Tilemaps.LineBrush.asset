@@ -13,11 +13,7 @@ MonoBehaviour:
   m_Name: Line Brush
   m_EditorClassIdentifier: 
   m_Cells:
-<<<<<<< HEAD
-  - m_Tile: {fileID: 11400000, guid: c62cd11115ae9cc46b46f4a716216bac, type: 2}
-=======
-  - m_Tile: {fileID: 11400000, guid: 5f67b1482fb55de40b8202e7377e1579, type: 2}
->>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
+  - m_Tile: {fileID: 0}
     m_Matrix:
       e00: 1
       e01: 0
@@ -42,8 +38,4 @@ MonoBehaviour:
   m_FloodFillContiguousOnly: 1
   lineStartActive: 0
   fillGaps: 0
-<<<<<<< HEAD
-  lineStart: {x: -19, y: 40, z: 0}
-=======
-  lineStart: {x: -2, y: 6, z: 0}
->>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
+  lineStart: {x: 0, y: 0, z: 0}

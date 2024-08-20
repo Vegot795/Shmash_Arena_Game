@@ -33,8 +33,13 @@
 
 Library/
 Temp/
+
 Logs/
+
+Log/
+
 obj/
 *.csproj
 *.pdb
 .vs/
+.log/
