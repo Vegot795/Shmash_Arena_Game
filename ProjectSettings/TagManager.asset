@@ -5,11 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+<<<<<<< HEAD
+=======
+  - Interactable
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< HEAD
   - 
+=======
+  - Player
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
   - Water
   - UI
   - 
@@ -45,9 +53,18 @@ TagManager:
   - name: Layer 1
     uniqueID: 2425651459
     locked: 0
+<<<<<<< HEAD
   - name: Layer 2
     uniqueID: 4250941897
     locked: 0
   - name: Layer 3
     uniqueID: 4189426099
     locked: 0
+=======
+  - name: Interactable
+    uniqueID: 4189426099
+    locked: 0
+  - name: Player
+    uniqueID: 4250941897
+    locked: 0
+>>>>>>> 5168ba899a2479c31e5964f381d6d4644efc146b
