@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 // Takes and handles input and movement for a player character
 public class PlayerController : MonoBehaviour
@@ -22,6 +23,24 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
+    public enum AttackDirection
+    {
+        Left,
+        Right,
+        Up,
+        Down
+    }
+    public enum TurnedDirection
+    {
+        Left,
+        Right,
+        Up,
+        Down
+    }
+
+    public AttackDirection lastAttackDirection;
+
+
     bool canMove = true;
 
     // Start is called before the first frame update
@@ -35,72 +54,88 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         DetectMoveDirection();
+        //IdleDirection();
+
         if (canMove)
         {
             bool success = TryMove(movementInput);
-            if(isMovingHorisontal)
+
+            // Handle horizontal movement
+            if (isMovingHorisontal)
             {
                 animator.SetBool("isMovingHorisontal", success);
-                if (movementInput.x < 0)
-                {
-                    spriteRenderer.flipX = true;
-                }
-                else if (movementInput.x > 0)
-                {
-                    spriteRenderer.flipX = false;
-                }
-            } else
+                spriteRenderer.flipX = movementInput.x < 0; // Flip sprite for left movement
+            }
+            else
             {
                 animator.SetBool("isMovingHorisontal", false);
             }
-            if (isMovingVertical)
-            {
-                if (movementInput.y < 0)
-                {
-                    animator.SetBool("isMovingDown", success);
-                    animator.SetBool("isMovingUp", false);
-                }
-                else
-                {
-                    animator.SetBool("isMovingDown", false);
 
-                }
-
-                if (movementInput.y > 0)
-                {
-                    animator.SetBool("isMovingUp", success);
-                    animator.SetBool("isMovingDown", false);
-                }
-                else
-                {
-                    animator.SetBool("isMovingUp", false);
-                }
-            } else
+            // Handle vertical movement using key detection
+            if (Input.GetKey(KeyCode.S)) // Moving Down
             {
+                animator.SetBool("isMovingDown", success);
                 animator.SetBool("isMovingUp", false);
-                animator.SetBool("isMovingDOwn", false);
+            }
+            else if (Input.GetKey(KeyCode.W)) // Moving Up
+            {
+                animator.SetBool("isMovingUp", success);
+                animator.SetBool("isMovingDown", false);
+            }
+            else
+            {
+                // Reset both vertical movement states if no key is pressed
+                animator.SetBool("isMovingUp", false);
+                animator.SetBool("isMovingDown", false);
             }
         }
     }
+
     private void DetectMoveDirection()
     {
-        if(movementInput.x != 0)
+        if (movementInput.x != 0)
         {
             isMovingHorisontal = true;
-        } else
+            isMovingVertical = false;
+
+            // Update the last attack direction based on horizontal movement
+            if (movementInput.x > 0)
+            {
+                lastAttackDirection = AttackDirection.Right;
+                
+            }
+            else if (movementInput.x < 0)
+            {
+                lastAttackDirection = AttackDirection.Left;
+            }
+        }
+        else
         {
             isMovingHorisontal = false;
-
         }
-        if(movementInput.y != 0)
+
+        if (movementInput.y != 0)
         {
             isMovingVertical = true;
+            isMovingHorisontal = false;
+
+            // Update the last attack direction based on vertical movement
+            if (movementInput.y > 0)
+            {
+                lastAttackDirection = AttackDirection.Up;
+            }
+            else if (movementInput.y < 0)
+            {
+                lastAttackDirection = AttackDirection.Down;
+            }
         }
         else
         {
             isMovingVertical = false;
         }
     }
+
+
 
     private bool TryMove(Vector2 direction) {
         if(direction != Vector2.zero) {
@@ -132,30 +167,58 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("swordAttack");
     }
 
-    public void SwordAttack() {
+    public void SwordAttack()
+    {
         LockMovement();
-        if(isMovingHorisontal) { 
-            if (spriteRenderer.flipX == true)
-            {
-                swordAttack.AttackLeft();
-            }
-            else
-            {
-                swordAttack.AttackRight();
-            }
-        }
-        if(isMovingVertical)
+        switch (lastAttackDirection)
         {
-            if(isMovingUp)
-            {
+            case AttackDirection.Right:
+                swordAttack.AttackRight();
+                break;
+            case AttackDirection.Left:
+                swordAttack.AttackLeft();
+
+                break;
+            case AttackDirection.Up:
                 swordAttack.AttackUp();
-            } 
-            else if(isMovingDown)
-            {
+
+                break;
+            case AttackDirection.Down:
                 swordAttack.AttackDown();
-            }
+                break;
         }
     }
+    public void IdleDirection()
+    {
+        switch (lastAttackDirection)
+        {
+            case AttackDirection.Right:
+                animator.SetBool("isTurnedRight", true);
+                animator.SetBool("isTurnedLeft", false);
+                animator.SetBool("isTurnedUp", false) ;
+                animator.SetBool("isTurnedDown", false);
+                break;
+            case AttackDirection.Left:
+                animator.SetBool("isTurnedRight", false);
+                animator.SetBool("isTurnedLeft", true);
+                animator.SetBool("isTurnedUp", false);
+                animator.SetBool("isTurnedDown", false);
+                break;
+            case AttackDirection.Up:
+                animator.SetBool("isTurnedRight", false);
+                animator.SetBool("isTurnedLeft", false);
+                animator.SetBool("isTurnedUp", true);
+                animator.SetBool("isTurnedDown", false);
+                break;
+            case AttackDirection.Down:
+                animator.SetBool("isTurnedRight", false);
+                animator.SetBool("isTurnedLeft", false);
+                animator.SetBool("isTurnedUp", false);
+                animator.SetBool("isTurnedDown", true);
+                break;
+        }
+    }
+    
 
     public void EndSwordAttack() {
         UnlockMovement();

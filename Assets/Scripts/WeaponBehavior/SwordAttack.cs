@@ -14,8 +14,6 @@ public class SwordAttack : MonoBehaviour
 
     private void Start() {
         rightAttackOffset = transform.position;
-
-        Vector2 verticalAttackOffset = new Vector2(0, Math.Abs(rightAttackOffset.x));
     }
 
     public void AttackRight() {
@@ -34,14 +32,14 @@ public class SwordAttack : MonoBehaviour
     public void AttackUp()
     {
         swordCollider.enabled = true;
-        transform.localPosition = verticalAttackOffset;
+        transform.localPosition = new Vector2(0, 0);
         swordCollider.size = vertColidSize;
         print("attack up");
     }
     public void AttackDown()
     {
         swordCollider.enabled = true;
-        transform.localPosition = new Vector2(0, verticalAttackOffset.y*-1);
+        transform.localPosition = new Vector2(0, -0.16f);
         swordCollider.size = vertColidSize;
         print("attack down");
     }
