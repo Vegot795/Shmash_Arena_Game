@@ -33,6 +33,7 @@
 
 Library/
 Temp/
+Logs/
 obj/
 *.csproj
 *.pdb
