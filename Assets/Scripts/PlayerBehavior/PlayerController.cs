@@ -31,36 +31,6 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    /*
-    private void FixedUpdate() {
-        if(canMove) {
-            // If movement input is not 0, try to move
-            if(movementInput != Vector2.zero){
-                
-                bool success = TryMove(movementInput);
-
-                if(!success) {
-                    success = TryMove(new Vector2(movementInput.x, 0));
-                }
-
-                if(!success) {
-                    success = TryMove(new Vector2(0, movementInput.y));
-                }
-                
-                animator.SetBool("isMovingSideways", success);
-            } else {
-                animator.SetBool("isMovingSideways", false);
-            }
-
-            // Set direction of sprite to movement direction
-            if(movementInput.x < 0) {
-                spriteRenderer.flipX = true;
-            } else if (movementInput.x > 0) {
-                spriteRenderer.flipX = false;
-            }
-        }
-    }
-    */
 
     private void FixedUpdate()
     {
@@ -83,23 +53,32 @@ public class PlayerController : MonoBehaviour
             {
                 animator.SetBool("isMovingHorisontal", false);
             }
-            if(isMovingVertical)
+            if (isMovingVertical)
             {
-                if(movementInput.y < 0)
+                if (movementInput.y < 0)
                 {
                     animator.SetBool("isMovingDown", success);
                     animator.SetBool("isMovingUp", false);
                 }
-                else if(movementInput.y > 0)
+                else
+                {
+                    animator.SetBool("isMovingDown", false);
+
+                }
+
+                if (movementInput.y > 0)
                 {
                     animator.SetBool("isMovingUp", success);
                     animator.SetBool("isMovingDown", false);
                 }
-            }
-            else
+                else
+                {
+                    animator.SetBool("isMovingUp", false);
+                }
+            } else
             {
                 animator.SetBool("isMovingUp", false);
-                animator.SetBool("isMovingDown", false);
+                animator.SetBool("isMovingDOwn", false);
             }
         }
     }
@@ -170,7 +149,8 @@ public class PlayerController : MonoBehaviour
             if(isMovingUp)
             {
                 swordAttack.AttackUp();
-            } else if(isMovingDown)
+            } 
+            else if(isMovingDown)
             {
                 swordAttack.AttackDown();
             }

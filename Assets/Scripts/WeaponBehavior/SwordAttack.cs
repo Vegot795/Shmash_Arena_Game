@@ -41,13 +41,13 @@ public class SwordAttack : MonoBehaviour
     public void AttackDown()
     {
         swordCollider.enabled = true;
-        transform.localPosition = new Vector2(0, 0);
+        transform.localPosition = new Vector2(0, verticalAttackOffset.y*-1);
         swordCollider.size = vertColidSize;
         print("attack down");
     }
 
     public void StopAttack() {
-        swordCollider.enabled = false;
+       swordCollider.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
