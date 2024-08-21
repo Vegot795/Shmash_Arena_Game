@@ -5,25 +5,10 @@ using UnityEngine;
 public class Enemy1 : MonoBehaviour, IDemegable
 {
     Animator animator;
+    public string enemyName = "Enemy1";
 
-    public float Health
-    {
-        set
-        {
-            health = value;
-
-            if (health <= 0)
-            {
-                Defeated();
-            }
-        }
-        get
-        {
-            return health;
-        }
-    }
-
-    public float health = 1;
+    public int health = 10;
+   
 
     private void Start()
     {
@@ -39,8 +24,16 @@ public class Enemy1 : MonoBehaviour, IDemegable
     {
         Destroy(gameObject);
     }
-    public void Damaged()
+    public void IsDamaged(int damage)
     {
         animator.SetTrigger("isDamaged");
+        health -= damage;
+        Debug.Log(enemyName + "takes" + damage + "damage, health left" + health);
+        if (health <= 0)
+        {
+            Defeated() ;
+        }
     }
+
+
 }

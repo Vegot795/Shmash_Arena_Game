@@ -6,14 +6,13 @@ using System;
 public class SwordAttack : MonoBehaviour
 {
     public BoxCollider2D swordCollider;
-    public float damage = 3;
-    Vector2 rightAttackOffset;
-    Vector2 verticalAttackOffset;
+    public int damage = 3;
+    Vector2 rightAttackOffset = new Vector2(0.1f, -0.1f);
     Vector2 defaultColidSize = new Vector2(0.19f, 0.25f);
     Vector2 vertColidSize = new Vector2(0.25f, 0.19f);
 
     private void Start() {
-        rightAttackOffset = transform.position;
+        //rightAttackOffset = transform.position;
     }
 
     public void AttackRight() {
@@ -39,7 +38,7 @@ public class SwordAttack : MonoBehaviour
     public void AttackDown()
     {
         swordCollider.enabled = true;
-        transform.localPosition = new Vector2(0, -0.16f);
+        transform.localPosition = new Vector2(0, -0.2f);
         swordCollider.size = vertColidSize;
         print("attack down");
     }
@@ -48,21 +47,16 @@ public class SwordAttack : MonoBehaviour
        swordCollider.enabled = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "Enemy") {
-            // Deal damage to the enemy
-            Enemy enemy = other.GetComponent<Enemy>();
-
-            if(enemy != null) {
-                enemy.health -= damage;
-                print("enemy found");
-            } else
-            {
-                print("missed");
-            }
-        } else
+    public void OnTriggerEnter2D(Collider2D other)
+    {   
+        if(other.CompareTag("Enemy"))
         {
-            print("missed");
+            IDemegable damageable = other.GetComponent<IDemegable>();
+            if(damageable != null)
+            {
+                damageable.IsDamaged(damage);
+                Debug.Log("player attacks for" + damage + "to the target");
+            }
         }
     }
 }

@@ -383,7 +383,7 @@
 "Assets/Downloaded Sprites/Pixel Art Top Down - Basic/Script/PropsAltar.cs"
 "Assets/Downloaded Sprites/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs"
 "Assets/Downloaded Sprites/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
-"Assets/Prefabs/Eenemy1.cs"
+"Assets/Scripts/EnemyBehavior/Eenemy1.cs"
 "Assets/Scripts/EnemyBehavior/Enemy.cs"
 "Assets/Scripts/IDamager.cs"
 "Assets/Scripts/IDemegable.cs"

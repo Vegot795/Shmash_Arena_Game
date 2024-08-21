@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Downloaded Sprites\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
-    <Compile Include="Assets\Prefabs\Eenemy1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -72,6 +71,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\IDamager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\EnemyBehavior\Eenemy1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -113,14 +113,14 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Tutorial Sprites\Free Character Sprites - Fantasy Dreamland\Free Character Sprites - Fantasy Dreamland\License.txt" />
+    <None Include="Assets\Downloaded Sprites\Tutorial Sprites\Free Character Sprites - Fantasy Dreamland\Free Character Sprites - Fantasy Dreamland\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\SimplePixelUI\fonts\Font2\license.txt" />
     <None Include="Assets\Downloaded Sprites\Pixel Art Top Down - Basic\Changelog.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\Downloaded Sprites\Basic Pack Free v1.0\Read Me.txt" />
-    <None Include="Assets\Tutorial Sprites\Free Character Sprites - Fantasy Dreamland\Free Character Sprites - Fantasy Dreamland\Read Me.txt" />
+    <None Include="Assets\Downloaded Sprites\Tutorial Sprites\Free Character Sprites - Fantasy Dreamland\Free Character Sprites - Fantasy Dreamland\Read Me.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Downloaded Sprites\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
@@ -135,10 +135,10 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Tutorial Sprites\sprites\characters\README.txt" />
+    <None Include="Assets\Downloaded Sprites\Tutorial Sprites\sprites\characters\README.txt" />
     <None Include="Assets\Downloaded Sprites\Interiors_Tileset\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Tutorial Sprites\read_me.txt" />
+    <None Include="Assets\Downloaded Sprites\Tutorial Sprites\read_me.txt" />
     <None Include="Assets\SimplePixelUI\fonts\Font1\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\SimplePixelUI\fonts\Font2\readme.txt" />

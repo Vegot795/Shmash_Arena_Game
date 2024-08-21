@@ -1,4 +1,7 @@
 public interface IDemegable 
 {
-    public void IsDamaged();
+    public void IsDamaged(int damage)
+    {
+        
+    }
 }

@@ -6,7 +6,9 @@ public class IDamager : MonoBehaviour
 {
     public GameObject swordHitbox;
     public Collider2D swordCollider;
-    LayerMask interactableObjects;
+    LayerMask demagableObjects;
+    private Collider2D[] demagableInRange;
+    private Collider2D demagableObject;
 
     void Start()
     {
@@ -16,8 +18,12 @@ public class IDamager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (swordCollider.enabled && )
+        
     }
 
-
+    private void FindEnemy(Collider2D other)
+    {
+        
+    }
+         
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2851148597589023530}
   - component: {fileID: 7335637668825298048}
   - component: {fileID: 8901480300617855224}
+  - component: {fileID: 8503141440276384144}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -126,6 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c58ab61ddd56cf644b3f80732a8d1f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyName: Slime
+  swordAttack: {fileID: 0}
   health: 1
 --- !u!70 &8901480300617855224
 CapsuleCollider2D:
@@ -162,3 +165,24 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0028559268, y: -0.020943359}
   m_Size: {x: 0.13332763, y: 0.13332763}
   m_Direction: 0
+--- !u!95 &8503141440276384144
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5109958518457244935}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 823bfb9013331bd428d1538039d3c2e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

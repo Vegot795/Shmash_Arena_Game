@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IDemegable
 {
+    public string enemyName = "Slime";
     Animator animator;
 
     public SwordAttack swordAttack;
@@ -34,10 +35,11 @@ public class Enemy : MonoBehaviour, IDemegable
     public void RemoveEnemy() {
         Destroy(gameObject);
     }
-    public void IsDamaged()
+    public void IsDamaged(int damage)
     {
-        health -= swordAttack.damage();
-
+        animator.SetTrigger("isDamaged");
+        health -= damage;
+        Debug.Log(enemyName + "takes" + damage + "damage, health left" + health);
         if (health <= 0)
         {
             Defeated();
