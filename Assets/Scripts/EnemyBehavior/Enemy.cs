@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDemegable
 {
+    public string enemyName = "Slime";
     Animator animator;
+
+    public SwordAttack swordAttack;
 
     public float Health {
         set {
@@ -31,5 +34,15 @@ public class Enemy : MonoBehaviour
 
     public void RemoveEnemy() {
         Destroy(gameObject);
+    }
+    public void IsDamaged(int damage)
+    {
+        animator.SetTrigger("isDamaged");
+        health -= damage;
+        Debug.Log(enemyName + "takes" + damage + "damage, health left" + health);
+        if (health <= 0)
+        {
+            Defeated();
+        }
     }
 }
