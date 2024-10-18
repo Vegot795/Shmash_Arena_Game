@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour, IDemegable
 
     private void Start() {
         animator = GetComponent<Animator>();
-        GameObject player = Find 
+        //GameObject player = Find; 
     }
 
     public void Defeated(){
@@ -48,8 +48,8 @@ public class Enemy : MonoBehaviour, IDemegable
             Defeated();
         }
     }
-    public void OnCollisionEnter2D(Collider2D other)
+    /*public void OnCollisionEnter2D(Collider2D other)
     {
 
-    }
+    }*/
 }
