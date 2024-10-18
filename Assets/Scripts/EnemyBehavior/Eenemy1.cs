@@ -35,5 +35,10 @@ public class Enemy1 : MonoBehaviour, IDemegable
         }
     }
 
+    public void OnCollisionEnter2D(Collider2D player)
+    {
+        
+    }
+
 
 }

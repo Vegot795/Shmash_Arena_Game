@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour, IDemegable
 {
     public string enemyName = "Slime";
     Animator animator;
+    GameObject _player;
+    Rigidbody playerRB;
 
     public SwordAttack swordAttack;
 
@@ -26,6 +28,7 @@ public class Enemy : MonoBehaviour, IDemegable
 
     private void Start() {
         animator = GetComponent<Animator>();
+        GameObject player = Find 
     }
 
     public void Defeated(){
@@ -44,5 +47,9 @@ public class Enemy : MonoBehaviour, IDemegable
         {
             Defeated();
         }
+    }
+    public void OnCollisionEnter2D(Collider2D other)
+    {
+
     }
 }
