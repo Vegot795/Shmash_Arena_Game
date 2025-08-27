@@ -1,3 +1,6 @@
+# =============== #
+# Unity generated #
+# =============== #
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,13 +8,41 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+UserSettings/
+
+# Cache & compiler outputs
+[Ll]ibrary/Bee/
+[Ll]ibrary/BurstCache/
+[Ll]ibrary/ShaderCache/
+[Ll]ibrary/PackageCache/
+[Ll]ibrary/ScriptAssemblies/
+[Ll]ibrary/Artifacts/
+
+# =============== #
+# Visual Studio   #
+# =============== #
+.vs/
 *.csproj
 *.unityproj
 *.sln
 *.suo
 *.tmp
 *.user
-*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# =============== #
+# Miscellaneous   #
+# =============== #
 *.pidb
 *.booproj
 *.svd
@@ -19,19 +50,28 @@
 *.mdb
 *.opendb
 *.VC.db
+*.VC.VC.opendb
+*.log
+*.lock
+*.pid
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Crash dumps
 sysinfo.txt
+*.stacktrace
+
+# Distribution builds
 *.apk
 *.aab
-
-# Visual Studio Code
-.vscode/
-
-# Rider project files
-.idea/
-*.sln.iml
-
-# Mac OS
-
-.DS_Store
-
-
+*.app
+*.exe
+*.appx
+*.xap
+*.ipa
+*.msix
+*.msixbundle
+*.msixupload
+*.appxupload

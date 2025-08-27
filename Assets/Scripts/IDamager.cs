@@ -12,18 +12,18 @@ public class IDamager : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void FindEnemy(Collider2D other)
     {
-        
+
     }
-         
+
 }
